@@ -1,174 +1,243 @@
 <?
 
-#Template Name: Беркана - Детский сад копия
-
+#Template Name: Цены
 
 get_header();
 
 ?>
 
-<div class="b1 module complex2">
+<div class="b1 b1-3">
     <div class="container">
+            <div class="price-box-wide" style="margin-bottom: 0;">
+                <div class="inner0">
+                    <div class="inner">
+                        <div class="c1">
+                            <div class="ttl " style="
+    text-align: center; ">Онлайн версия программы</div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+        </div>
         
-        <div id="rb-widget-container" data-colorscheme="blue" data-guid="983756124"></div>
-<script src="http://walltouch.ru/widget.cdn/widget.min.js?1"></script>
-        <div class="box">
+        <div class="tbl1">
+            <table>
+				
+                <tr>
+                    <th>Тариф</th><th>Максимум</th><th>Дополнительный филиал</th><th>Перенос базы
+из excel в онлайн</th><th>Внедрение лайт: Перенос
+базы из excel в онлайн.
+3 обучающих видео урока
+по работе с программой,
+продолжительностью
+1 час 15 минут</th><th>Внедрение про: Перенос
+базы из excel в онлайн. 5
+обучающих видео уроков
+по работе с программой,
+продолжительностью
+1 час 15 минут + вебинары
+с инструкцией</th>
+                </tr>
+                <tr>
+                    <td>1 месяц</td><td><span><b>2 500 ₽</b></span></td><td><span>800 ₽</span>/мес.</td><td><span>2 500 ₽</span></td><td><span>5 000 ₽</span></td><td><span>13 460 ₽</span></td>
+                </tr>
+                <tr>
+                    <td>3 месяца</td><td><span><b>7 125 ₽</b></span><br/><i>скидка 5%</i></td><td><span>800 ₽</span>/мес.</td><td><span>1 500 ₽</span></td><td><span>5 000 ₽</span></td><td><span>13 460 ₽</span></td>
+                </tr>
+                <tr>
+                    <td>6 месяцев</td><td><span><b>13 500 ₽</b></span><br/><i>скидка 10%</i></td><td><span>800 ₽</span>/мес.</td><td><span>1 000 ₽</span></td><td><span>5 000 ₽</span></td><td><span>13 460 ₽</span></td>
+                </tr>
+                <tr>
+                    <td>12 месяцев</td><td><span><b>22 560 ₽</b></span><br/><i>скидка 20%</i></td><td><span>800 ₽</span>/мес.</td><td><span>0 ₽</span></td><td><span>5 000 ₽</span></td><td><span>13 460 ₽</span></td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="price-box-wide">
+                <div class="inner0">
+                    <div class="inner">
+                        <div class="c1">
+                            <div class="ttl">Установочная версия</div>
+                            <p>Нет необходимости продлевать лицензию, после покупки, программа остается у вас навсегда.</p>
+                        </div>
+                        <div class="c2">
+                            <div class="price-price">
+                                <b>50 000 ₽</b>
+                            </div>
+                            <div class="btn-box"><a class="btn3 btn-full" href="">Купить</a></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        
+        <div class="items5-list v2">
+            <a class="c1" href="<?php echo get_page_link(30); ?>" style="text-decoration: none;">
+                <div class="box">
+                    <div class="ico"><span><img src="<?php echo get_template_directory_uri(); ?>/img/customer.svg" alt="" /></span></div>
+                    <p>Учет клиентов</p>
+                </div>
+            </a>
+            <a class="c1" href="<?php echo get_page_link(33); ?>" style="text-decoration: none;">
+                <div class="box">
+                    <div class="ico"><span><img src="<?php echo get_template_directory_uri(); ?>/img/calendar.svg" alt="" /></span></div>
+                    <p>Расписание учеников</p>
+                </div>
+            </a>
+            <a class="c1" href="<?php echo get_page_link(35); ?>" style="text-decoration: none;">
+                <div class="box">
+                    <div class="ico"><span><img src="<?php echo get_template_directory_uri(); ?>/img/checklist.svg" alt="" /></span></div>
+                    <p>Планирование задач</p>
+                </div>
+            </a>
+            <a class="c1" href="<?php echo get_page_link(37); ?>" style="text-decoration: none;">
+                <div class="box">
+                    <div class="ico"><span><img src="<?php echo get_template_directory_uri(); ?>/img/target.svg" alt="" /></span></div>
+                    <p>Маркетинг</p>
+                </div>
+            </a>
+            <a class="c1" href="<?php echo get_page_link(39); ?>" style="text-decoration: none;">
+                <div class="box">
+                    <div class="ico"><span><img src="<?php echo get_template_directory_uri(); ?>/img/support.svg" alt="" /></span></div>
+                    <p>Телефонный помощник</p>
+                </div>
+            </a>
+            <a class="c1" href="<?php echo get_page_link(41); ?>" style="text-decoration: none;">
+                <div class="box">
+                    <div class="ico"><span><img src="<?php echo get_template_directory_uri(); ?>/img/send-mail.svg" alt="" /></span></div>
+                    <p>Рассылки</p>
+                </div>
+            </a>
+            <a class="c1" href="<?php echo get_page_link(43); ?>" style="text-decoration: none;">
+                <div class="box">
+                    <div class="ico"><span><img src="<?php echo get_template_directory_uri(); ?>/img/income.svg" alt="" /></span></div>
+                    <p>Учет финансов и товаров</p>
+                </div>
+            </a>
+            <a class="c1" href="<?php echo get_page_link(45); ?>" style="text-decoration: none;">
+                <div class="box">
+                    <div class="ico"><span><img src="<?php echo get_template_directory_uri(); ?>/img/pos.svg" alt="" /></span></div>
+                    <p>Кассы</p>
+                </div>
+            </a>
+            <a class="c1" href="<?php echo get_page_link(47); ?>" style="text-decoration: none;">
+                <div class="box">
+                    <div class="ico"><span><img src="<?php echo get_template_directory_uri(); ?>/img/review.svg" alt="" /></span></div>
+                    <p>Журнал успеваемости</p>
+                </div>
+            </a>
+            <a class="c1" href="<?php echo get_page_link(49); ?>" style="text-decoration: none;">
+                <div class="box">
+                    <div class="ico"><span><img src="<?php echo get_template_directory_uri(); ?>/img/gift-card.svg" alt="" /></span></div>
+                    <p>Бонусная программа</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>  
+<div class="page-btn-box">
+    <div class="container">
+        <div class="btns">
+            <a class="btn3 btn-buy" href="">Купить</a>
+            <a class="btn4 btn-demo" href=""><span>Демо - доступ</span></a>
+        </div>
+    </div>
+</div>
+
+<div class="helpyou v2">
+   <div class="container">
+        <div class="httl">Berkana создана специально для</div>
+        <div class="d-flex">
+            <a class="c1" href="<?php echo get_page_link(54); ?>" style="text-decoration: none;">
+                <div class="box">
+                    <div class="ttl">Детских центров</div>
+                    <div class="txt">
+                        <p>
+                            Включает в себя необходимый <br>
+набор функций для <br>
+полной автоматизации <br>
+вашего детского центра
+                        </p>
+                    </div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/hy1.png" alt="" /></div>
+                </div>
+            </a>
             
-            <div class="page-title">Беркана - тестовая страница</div>
-            <p>
-             Весь необходимый функционал для ведения учёта частного или государственного детского сада: учет клиентов, посещений, движения финансов, питания и кружковой деятельности, расчет зарплаты педагогов. Удаленный доступ и контроль всех процессов внутри вашего детского сада. Бессрочная лицензия или онлайн-версия решения. Неограниченное количество пользователей.
-            </p>
-            <div class="btn-box">
-                <a class="btn3 btn-buy" href="">Купить</a>
-                <a class="btn4 v2 btn-demo" href=""><span>Демо - доступ</span></a>
-            </div>
+            <a class="c1" href="<?php echo get_page_link(58); ?>" style="text-decoration: none;">
+                <div class="box">
+                    <div class="ttl">Языковых школ</div>
+                    <div class="txt">
+                        <p>
+                           Освобождает <br>
+администраторов<br>
+от рутины, позволяет <br>
+составлять расписание
+                        </p>
+                    </div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/hy3.png" alt="" /></div>
+                </div>
+            </a>
+			<a class="c1" href="<?php echo get_page_link(56); ?>" style="text-decoration: none;">
+                <div class="box">
+                    <div class="ttl">Детских садов</div>
+                    <div class="txt">
+                        <p>
+                           Дает возможность заводить <br>
+карточки клиентов<br>
+в виде целой семьи, <br>
+удобно вести базу данных
+                        </p>
+                    </div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/hy2.png" alt="" /></div>
+                </div>
+            </a>
+            <a class="c1" href="<?php echo get_page_link(60); ?>" style="text-decoration: none;">
+                <div class="box">
+                    <div class="ttl">Учебных центров</div>
+                    <div class="txt">
+                        <p>
+                            Имеется функция <br>
+создания абонементов, <br>
+с помощью которых <br>
+легко отследить посещения
+                        </p>
+                    </div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/hy4.png" alt="" /></div>
+                </div>
+            </a> 
+            <a class="c1" href="<?php echo get_page_link(62); ?>" style="text-decoration: none;">
+                <div class="box v2">
+                    <div class="ttl">Игровых центров</div>
+                    <div class="txt">
+                        <p>
+                         Контролирует время входа и выхода<br>
+из тайм-зоны каждого клиента <br>
+и автоматически считает <br>
+стоимость посещения
+                        </p>
+                    </div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/hy5.png" alt="" /></div>
+                </div>
+            </a>
+            <a class="c1" href="<?php echo get_page_link(64); ?>" style="text-decoration: none;">
+                <div class="box v3">
+                    <div class="ttl">Сети организаций</div>
+                    <div class="txt">
+                        <p>
+                           Дает возможность просматривать <br>
+данные по отдельному филиалу,<br>
+либо сразу по всем <br>
+организациям
+                    </div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/hy6.png" alt="" /></div>
+                </div>
+            </a>
         </div>
-        <div class="items6-list">
-            <div class="c1">
-                <div class="box">
-                    <div class="ico"><span><img src="<?php echo get_template_directory_uri(); ?>/img/loyalty-card.svg" alt=""></span></div>
-                    <p>Программы
-лояльности для
-клиентов
-</p>
-                </div>
-            </div>
-            <div class="c1">
-                <div class="box">
-                    <div class="ico"><span><img src="<?php echo get_template_directory_uri(); ?>/img/bonus.svg" alt=""></span></div>
-                    <p>Автоматичекое
-начисление баллов
-за покупки
- </p>
-                </div>
-            </div>
-            <div class="c1">
-                <div class="box">
-                    <div class="ico"><span><img src="<?php echo get_template_directory_uri(); ?>/img/money-transfer.svg" alt=""></span></div>
-                    <p>Автоматическое
-зачисление бонусов
-на депозит клиентов
- </p>
-                </div>
-            </div>
-            <div class="c1">
-                <div class="box">
-                    <div class="ico"><span><img src="<?php echo get_template_directory_uri(); ?>/img/graph-bar.svg" alt=""></span></div>
-                    <p>Повышение продаж
-лояльным клиентам
-</p>
-                </div>
-            </div>
-            <div class="c1">
-                <div class="box">
-                    <div class="ico"><span><img src="<?php echo get_template_directory_uri(); ?>/img/statistics.svg" alt=""></span></div>
-                    <p>Статистика по
-начисленным бонусам
-в разрезе занятий</p>
-                </div>
-            </div>
-            <div class="c1">
-                <div class="box">
-                    <div class="ico"><span><img src="<?php echo get_template_directory_uri(); ?>/img/wallet.svg" alt=""></span></div>
-                    <p>Начисление - за
-прибретение
-абонементов
-или посещения
-</p>
-                </div>
-            </div>
-        </div>
-        <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/complex2.png" alt="" /></div>
-    </div>
 </div>
 
-<div class="module-desc">
-    <div class="container">
-        
-        <div class="httl2">Готовое CRM-решение для ДОУ</div>
-
-        <div class="text-box-white">
-            <p>
-                В современных реалиях частный детский сад - востребованный бизнес, требующий соблюдения большого количества норм, правил, регламентов и огромной заботы о своих клиентах. Дефицит мест в государственных дошкольных учреждениях формирует спрос на услуги в частном бизнесе, поэтому данный сектор стремительно развивается, растут инвестиции и конкуренция, при этом сохраняются высочайшие требования ко всей отрасли в целом.</p>
-
-                <p><b>Сегодня всё больше детских садов понимают необходимость автоматизации бизнеса для постоянного повышения качества своих услуг. Специфика работы детского сада отражена в каждом модуле CRM Berkana:</b></p>
-        </div>
-
-        <ul class="ul1 mb-50">
-            <li>Расписание детского сада, как правило, сложнее, чем расписание детского центра – много разных занятий в рамках одного
-            дня пребывания. Дети в одной и той же группе могут посещать разные занятия.</li>
-            <li>Часто дошкольное заведение совмещает в себе деятельность сада и центра. Дети садика могут посещать
-            дополнительные кружки, и наоборот.</li>
-            <li>Необходимо учитывать питание детей.</li>
-            <li>Схемы оплаты труда педагогов детского сада зачастую сложнее, чем в детском центре.</li>
-        </ul>
-
-        <div class="ttl2">Помимо сложностей учета можно выделить еще несколько причин в пользу автоматизации:</div>
-        
-        <div class="boxes3">
-            <div class="c1">
-                <div class="box">
-                    <div class="num">1</div>
-                    <p>
-                        Клиенты детского сада более
-требовательные, т.к. средний чек выше.
-Администратору или управляющему
-требуется больше времени на работу
-с клиентами, а значит система
-автоматизации здесь необходима.
-                    </p>
-                </div>
-            </div>
-            <div class="c1">
-                <div class="box">
-                    <div class="num">2</div>
-                    <p>
-                        Детский сад опирается в своей работе
-на постоянных клиентов. Лояльность
-клиентов невероятно важна. Не сделанный
-во время звонок администратора может
-иметь более серьезные последствия для
-бизнеса.
-                    </p>
-                </div>
-            </div>
-            <div class="c1">
-                <div class="box">
-                    <div class="num">3</div>
-                    <p>
-                        Ответственность владельца детского сада
-выше, чем у детского клуба, а значит
-необходимо снять с него всю рутинную
-работу, предоставив это системе
-автоматизации. Пусть голова будет занята
-теми вопросами, которые нельзя
-делегировать или автоматизировать!
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="text-centered-box">
-            <p class="f16">Ключевые модули CRM Berkana для автоматизации вашего бизнеса: Работа с клиентами, Посещения, Рабочий стол администратора, Календарь, Статистика, Финансы, Настройка, Продукты, Рассылка сообщений, ip-телефония и т.д.).</p>
-
-                    <p class="f16">Наши специалисты помогут вам настроить систему так, чтобы она ежедневно приносила вам ощутимую пользу
-            </p>
-        </div>
-    
-        <div class="qq">
-            <div class="inner">
-                <div class="box">
-                    <p>
-                        С нашей CRM Berkana вы сможете организовать любое количество рабочих мест и иметь возможность просматривать данные через интернет из любой точки мира и с любого устройства. Выбирайте решение Беркана - Детский сад и будьте во всеоружии!
-                    </p>
-                    <div id="rb-widget-container" data-colorscheme="blue" data-guid="983756124"></div>
-<script src="http://walltouch.ru/widget.cdn/widget.min.js?1"></script>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
-<?php get_template_part('blocks/bottom', 'buy', ['img' => 'price-img12.png', 'name' => get_the_title()]); ?>
+
+
 
 <?get_footer();?>

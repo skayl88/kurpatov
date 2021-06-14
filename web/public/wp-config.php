@@ -56,7 +56,7 @@ define( 'DB_PASSWORD', "dev" );
 
 /** MySQL hostname */
 
-define( 'DB_HOST', "mysql" );
+define( 'DB_HOST', "mariadbwp" );
 
 
 /** Database Charset to use in creating database tables. */

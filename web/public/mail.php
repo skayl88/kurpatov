@@ -7,7 +7,7 @@ $c = true;
 if ( $method === 'POST' ) {
 
 	$project_name = 'Заявка с berkanasoft.ru ';
-	$admin_email  = 'd.romanov@ollaberkana.ru, a.babkina@ollatelecom.ru, Berkana@berkanasoft.ru';
+	$admin_email  = 'skayl8827@gmail.com';
 	$form_subject = 'Заявка с berkanasoft.ru';
 
 	foreach ( $_POST as $key => $value ) {

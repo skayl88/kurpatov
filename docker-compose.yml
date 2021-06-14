@@ -30,7 +30,7 @@ services:
         command: install
     myadmin:
         image: phpmyadmin/phpmyadmin
-        container_name: phpmyadmin
+        container_name: phpmyadminwp
         ports:
             - "8080:80"
         environment:
@@ -41,7 +41,8 @@ services:
             - mariadb
     mariadb:
         image: mariadb:10.5.8
-        container_name: ${MYSQL_HOST}
+        container_name: mariadbwp
+
         restart: always
         env_file:
             - ".env"

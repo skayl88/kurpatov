@@ -173,6 +173,7 @@
     </div>
 </div>
 
+
 <script>
     jQuery("form.mail_ajax").submit(function() { //Change
 		console.log('sub');
@@ -196,7 +197,30 @@
         });
         return false;
       });
-	
+      jQuery("form.quest_mail_ajax").submit(function() { //Change
+		console.log('sub');
+        var th = jQuery(this);
+		
+        jQuery.ajax({
+          type: "POST",
+          url: "/mail.php", //Change
+          data: th.serialize()
+        }).done(function() {
+        document.getElementById('error').style.display = "none";
+        $(".quest").hide();
+        $("#prevBtn").hide();
+        $("#nextBtn").hide();
+        $(".home").show();
+        $("#SubQuest_Btn").hide();
+        ym(74180377,'reachGoal','kviz');
+        $(".httl").html(" Данные переданы нашим сотрудникам, ожидайте получения промокода в ближайшее время")  
+          setTimeout(function() {
+            // Done Functions
+            th.trigger("reset");
+          }, 1000);
+        });
+        return false;
+      });
 
 jQuery("#demo-sub").submit(function() {
 gtag('event', 'demo_crm', {
@@ -241,7 +265,11 @@ jQuery("#by-sub-local").submit(function() {
         webvisor:true
    });
 </script>
+
 <noscript><div><img src="https://mc.yandex.ru/watch/74180377" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<style src="https://atuin.ru/demo/ui-slider/jquery-ui.css"></style>
+
+
 </body>
 </html>

@@ -17,6 +17,8 @@ get_header();
 <div class="ttl">Свяжитесь с нами для уточнения цены  </div>
 <div class="btn-box"><a class="btn3" href="https://ollaberkana.ru/kontakty/">Связаться</a></div>
 </div>
+
+
                <div class="calc-display" id="clcdisplay">
                    <div class="calc-dispaly-container">
                         <div class="calc-dispalay-place" id="mounts-inf">
@@ -32,7 +34,7 @@ get_header();
                             <div class="calc-operator onlydop hiden">+</div>
                         <div class="calc-dispalay-place onlydop hiden">
                       <p class='pcena 'id="cexel">0</p>
-                        <p>Дополнительные услуги</p>
+                        <p>Перенос базы из эксель</p>
                             </div>
                             <div class="calc-operator onlydop  hiden">=</div>
                             <div class="calc-dispalay-place onlydop hiden">
@@ -41,8 +43,10 @@ get_header();
                             </div>
                    </div>
             
-               </div>       
-                        </div>  
+               </div>
+                              
+                        </div>
+                            
                     </div>
                         <div id="range">
                             <input type="range" class="range" id="range2" value="2" min="1" max="6" onmousemove="rangeSlider(this.value)" onchange="rangeSlider(this.value)">
@@ -67,7 +71,7 @@ get_header();
                         <button class="btn-dop" id="check_exel"  data-name="exel">
 </div>
                         <div class="inf">   
-                        <div class="price1" id="exel_inf">2500Р</div>
+                        <div class="price1">2500Р</div>
                         <p>перенос базы из эксель</p>
                         </div>
                         
@@ -283,7 +287,6 @@ get_header();
 </div>
 
 </div>
-
 
 
 

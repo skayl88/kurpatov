@@ -1430,6 +1430,9 @@ function halfhalf_body_class( $classes ) {
     if ( is_page_template( 'page-mod2.php' ) ) {
         $classes[] = 'bg2';
     }
+	if ( is_page_template( 'page-partners.php' ) ) {
+        $classes[] = 'bg2';
+    }
 
     if ( is_page_template( 'page-mod3.php' ) ) {
         $classes[] = 'bg2';
@@ -1471,10 +1474,13 @@ function halfhalf_body_class( $classes ) {
         $classes[] = 'bg2';
     }
 
-    if ( is_page_template( 'page-prices.php' ) ) {
+    if ( is_page_template( 'page-qwiz.php' ) ) {
         $classes[] = 'bg2';
     }
-
+	if ( is_page_template( 'page-prices.php' ) ) {
+        $classes[] = 'bg2';
+    }
+	
     if( is_category() ) {
 		$classes[] = 'bg2';
     }
